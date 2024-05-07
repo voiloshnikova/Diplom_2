@@ -1,0 +1,102 @@
+-------------------------------------------------------------------------------
+Test set: org.example.UserUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 12.043 s <<< FAILURE! - in org.example.UserUpdateTest
+updateUnauthorizedUserTest[update in name](org.example.UserUpdateTest)  Time elapsed: 1.183 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in name](org.example.UserUpdateTest)  Time elapsed: 0.816 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in email](org.example.UserUpdateTest)  Time elapsed: 0.756 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in email](org.example.UserUpdateTest)  Time elapsed: 0.773 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in password](org.example.UserUpdateTest)  Time elapsed: 1.104 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in password](org.example.UserUpdateTest)  Time elapsed: 0.845 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in name + email](org.example.UserUpdateTest)  Time elapsed: 0.834 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in name + email](org.example.UserUpdateTest)  Time elapsed: 0.857 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in name + password](org.example.UserUpdateTest)  Time elapsed: 0.808 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in name + password](org.example.UserUpdateTest)  Time elapsed: 0.694 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in email + password](org.example.UserUpdateTest)  Time elapsed: 0.881 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in email + password](org.example.UserUpdateTest)  Time elapsed: 0.756 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+
+updateUnauthorizedUserTest[update in all fields](org.example.UserUpdateTest)  Time elapsed: 0.796 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at org.example.UserUpdateTest.updateUnauthorizedUserTest(UserUpdateTest.java:90)
+
+updateAuthorizedUserTest[update in all fields](org.example.UserUpdateTest)  Time elapsed: 0.871 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.example.UserUpdateTest.updateAuthorizedUserTest(UserUpdateTest.java:82)
+

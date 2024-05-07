@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.userorders.OrdersOfAuthorizedUserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.665 s <<< FAILURE! - in org.example.userorders.OrdersOfAuthorizedUserTest
+getAuthorizedUsersOrdersTest(org.example.userorders.OrdersOfAuthorizedUserTest)  Time elapsed: 0.662 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
+	at org.example.userorders.OrdersOfAuthorizedUserTest.getAuthorizedUsersOrdersTest(OrdersOfAuthorizedUserTest.java:21)
+
