@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.example.createorder.OrderCreationAuthorizedUserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 14.819 s <<< FAILURE! - in org.example.createorder.OrderCreationAuthorizedUserTest
+createOrderAuthUserWrongHashTest(org.example.createorder.OrderCreationAuthorizedUserTest)  Time elapsed: 11.981 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
+	at org.example.createorder.OrderCreationAuthorizedUserTest.createOrderAuthUserWrongHashTest(OrderCreationAuthorizedUserTest.java:40)
+
+createOrderAuthUserTest(org.example.createorder.OrderCreationAuthorizedUserTest)  Time elapsed: 0.825 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
+	at org.example.createorder.OrderCreationAuthorizedUserTest.createOrderAuthUserTest(OrderCreationAuthorizedUserTest.java:22)
+

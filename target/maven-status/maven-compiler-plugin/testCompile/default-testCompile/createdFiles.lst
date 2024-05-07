@@ -1,0 +1,7 @@
+CreateOrderTests.class
+EditUserWithoutAuthTests.class
+RegUserTests.class
+GerOrderTests.class
+AuthTests.class
+BaseTest.class
+EditUserWithAuthTests.class
